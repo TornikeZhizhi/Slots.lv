@@ -157,6 +157,11 @@ display: inline-block;
 
 .button a img {
 	margin-left: 15px;
+	transition: all .4s;
+}
+
+.button:hover img {
+	transform: translateX(3px);
 }
 
 .icons_wrapper {
@@ -174,6 +179,85 @@ display: inline-block;
 
 
 
+.body_content {
+
+	    padding: 0 8%;
+}
+
+.body_content_title {
+
+	text-align: center;
+	margin-top: 50px;
+}
+
+.body_content_title h2 {
+
+	color: #CE0058;
+	font-family: 'Brandon BrandonGrotesque-Black';
+	font-size: 77px;
+}
+
+.body_text {
+
+	max-width: 1300px;
+	margin: 30px auto;
+	text-align: center;
+
+}
+
+.body_text p {
+	color: #000;
+	font-family: 'Calibri';
+	font-size: 27px;
+
+}
+
+.body_text p span{
+	 font-family: 'Calibri-Bold';
+}
+.body_boxes {
+
+margin-top: 45px;
+display: flex;
+justify-content: space-between;
+
+}
+
+.body_box {
+	text-align: center;
+}
+
+.body_box h3 {
+	color: #000;
+	font-family: 'Brandon BrandonGrotesque-Black';
+	font-size: 37px;
+}
+
+.body_box.blue  h3{
+	color: #5BADFF;
+}
+
+.body_box.yellow h3{
+	color: #CDE549;
+}
+
+.body_box.pink h3{
+	color: #D042DC;
+}
+
+
+.body_box p {
+ font-family: 'Brandon BrandonGrotesque-Black';
+ font-size: 31px;
+ color: #000;
+     line-height: 26px;
+}
+
+.body_button {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
 @media screen and (max-width: 1750px) {
 
 	.main_text .medium_title {
@@ -234,6 +318,50 @@ display: inline-block;
 
 
 @media screen and (max-width: 992px) {
+
+	.body_box p {
+    font-size: 22px;
+    line-height: 24px;
+}
+.body_button {
+ 
+    margin-top: 15px;
+}
+
+
+
+.body_box h3 {
+    font-size: 27px;
+}
+.body_box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+	.body_text p {
+    color: #000;
+    font-family: 'Calibri';
+    font-size: 25px;
+}
+
+	.body_content_title {
+    text-align: center;
+    margin-top: 35px;
+}
+.body_text {
+    max-width: 1300px;
+    margin: 20px auto 0;
+    text-align: center;
+}
+	.body_content_title h2 {
+  
+    font-size: 34px;
+    line-height: 38px;
+}
+
+	.body_boxes {
+		flex-direction: column;
+	}
 
 .main_section{
 	height: auto;
