@@ -1,3 +1,21 @@
-$(window).click(function dada(argument) {
-	// alert("s")
-})
+
+jQuery(document).ready(function($) {
+  $('.loop').owlCarousel({
+    center: true,
+    items:1.5,
+    loop: true,
+    pagination: false,
+    margin: 10,
+    responsive: {
+      992: {
+        items: 5,
+        loop:false,
+        center:false,
+      }
+    }
+  });
+
+});
+
+
+
