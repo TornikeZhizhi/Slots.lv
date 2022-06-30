@@ -57,23 +57,29 @@
 
 	width: 100%;
 	height: 100vh;
-	background-color: #FF5C5C;
+	/*background-color: #FF5C5C;*/
+	background-image: url("../imgs/main_bg.png");
+	background-position: bottom;
+    background-size: cover;
 }
 
 .main_container {
-	display: flex;
+	/*display: flex;
 	align-items: flex-start;
+	max-width: 1300px;
+	margin: 0 auto;*/
+	    padding: 0 8%;
 }
 
 .header_logo {
 
-
+display: inline-block;
 
 }
 
 .header_logo a{
 
-	display: block;
+	display: flex;
 	background-color: #CE0058;
 	padding: 0 10px;
 }
@@ -81,4 +87,141 @@
 .header_logo a img {
 	width: 206px;
     height: 79px;
+}
+
+.main_text p {
+
+	font-family: 'Brandon Grotesque';
+	font-size: 77px;
+	color: #fff;
+	    line-height: 90px;
+
+}
+
+.main_text {
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
+.main_text h1 {
+ font-family: 'Brandon BrandonGrotesque-Black';
+	font-size: 77px;
+	    line-height: 90px;
+	color: #fff;
+}
+
+.main_text .medium_title{
+	    max-width: 640px;
+	    margin-bottom: 10px;
+
+}
+
+.main_text .bold_title {
+	    max-width: 680px;
+}
+
+.main_container_left_content {
+	flex:0 0 45%;
+	max-width: 45%;
+}
+
+.main_container_right_content {
+	flex: 0 0 55%;
+	max-width: 55%;
+}
+
+.main_container_right_content img {
+	width: 100%;
+
+}
+
+.button {
+	display: inline-block;
+}
+
+.button a {
+
+	display: flex;
+	background: #CE0058;
+	border-radius: 50px;
+	align-items: center;
+	justify-content: center;
+	font-size: 37px;
+	font-family: 'Brandon BrandonGrotesque-Black';
+	color: #fff;
+	padding: 20px 37px;
+}
+.button a img {
+	margin-left: 15px;
+}
+
+.icons_wrapper {
+
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 5%;
+}
+
+.icons_wrapper img {
+	margin-right: 10px;
+}
+
+
+
+@media screen and (max-width: 1750px) {
+
+	.main_text .medium_title {
+    max-width: 485px;
+    margin-bottom: 10px;
+}
+
+.main_text p {
+    font-family: 'Brandon Grotesque';
+    font-size: 60px;
+    color: #fff;
+    line-height: 65px;
+}
+
+.main_text h1 {
+    font-family: 'Brandon BrandonGrotesque-Black';
+    font-size: 60px;
+    line-height: 65px;
+    color: #fff;
+}
+
+
+.main_text {
+	margin-top: 6%;
+}
+
+.button a {
+
+    font-size: 30px;
+    padding: 15px 32px;
+}
+
+}
+
+
+
+@media screen and (max-width: 1400px) {
+	.main_text .medium_title {
+    max-width: 357px;
+    margin-bottom: 15px;
+}
+
+.main_text p {
+    font-family: 'Brandon Grotesque';
+    font-size: 45px;
+    color: #fff;
+    line-height: 45px;
+}
+
+.main_text h1 {
+    font-family: 'Brandon BrandonGrotesque-Black';
+    font-size: 45px;
+    line-height: 50px;
+    color: #fff;
+}
+
 }

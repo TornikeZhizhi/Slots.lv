@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="65.852" height="46.541" viewBox="0 0 65.852 46.541">
+  <g id="Group_253" data-name="Group 253" transform="translate(-1620.283 -908.327)">
+    <rect id="Rectangle_412" data-name="Rectangle 412" width="64.44" height="45.664" transform="translate(1620.283 908.327)" fill="none"/>
+    <g id="mc_symbol" transform="translate(1620.458 908.327)">
+      <rect id="Rectangle_412-2" data-name="Rectangle 412" width="65.677" height="46.541" fill="none"/>
+      <g id="Group_174" data-name="Group 174" transform="translate(7.72 7.757)">
+        <rect id="Rectangle_413" data-name="Rectangle 413" width="13.574" height="24.393" transform="translate(18.313 3.317)" fill="#ff5f00"/>
+        <path id="Path_196" data-name="Path 196" d="M356.887,285.513a15.487,15.487,0,0,1,5.925-12.2,15.514,15.514,0,1,0,0,24.393A15.487,15.487,0,0,1,356.887,285.513Z" transform="translate(-337.711 -269.999)" fill="#eb001b"/>
+        <path id="Path_197" data-name="Path 197" d="M421.058,285.513a15.513,15.513,0,0,1-25.1,12.2,15.516,15.516,0,0,0,0-24.394,15.513,15.513,0,0,1,25.1,12.2Z" transform="translate(-370.858 -270)" fill="#f79e1b"/>
+        <path id="Path_198" data-name="Path 198" d="M450.358,327.513v-.5h.2v-.1h-.513v.1h.2v.5Zm1,0v-.6H451.2l-.181.414-.181-.414h-.157v.6h.111v-.454l.17.392h.115l.17-.393v.455Z" transform="translate(-401.637 -302.386)" fill="#f79e1b"/>
+      </g>
+    </g>
+  </g>
+</svg>
