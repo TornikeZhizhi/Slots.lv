@@ -375,6 +375,69 @@ justify-content: space-between;
 }
 
 
+footer {
+	padding: 0 8% 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer_socials {
+	margin-top: 20px;
+	    display: flex;
+    align-items: center;
+}
+.footer_socials a {
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 44px;
+	height: 44px;
+	flex:0 0 44px;
+	background-color: #CE0058;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.footer_socials a img {
+	    width: 56%;
+    height: 56%;
+}
+.footer_center_content {
+	flex: 0 0 45%;
+	max-width: 45%;
+}
+
+.footer_text {
+	text-align: center;
+}
+.footer_text p{
+    font-family: 'Brandon Grotesque';
+    color: #000;
+    font-size: 14px;
+}
+.footer_text a {
+	   font-family: 'Brandon BrandonGrotesque-Black';
+    font-size: 14px;
+	   color: #000;
+text-decoration: underline;}
+
+.footer_down_text {
+	text-align: center;
+	margin-top: 25px;
+}
+
+.footer_down_text p {
+    font-size: 14px;
+	   font-family: 'Brandon BrandonGrotesque-Black';
+	   color: #000;
+}
+
+.footer_right_social {
+	flex: 0 0 265px;
+	max-width: 265px;
+}
+
 @media screen and (max-width: 1750px) {
 
 
@@ -469,6 +532,35 @@ justify-content: space-between;
 
 @media screen and (max-width: 992px) {
 
+	footer {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+.footer_socials a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    flex: 0 0 35px;
+}
+.footer_down_text {
+	margin-top: 10px;
+}
+.footer_center_content {
+	max-width: 100%;
+	flex: 0 0 100%;
+	margin-top: 25px;
+}
+	.footer_socials {
+		margin-top: 10px;
+	}
+
+	.footer_right_social {
+		max-width: 100%;
+		flex: 0 0 100%;
+		width: 100%;
+	}
 
 
 	.slider_section a {
@@ -494,6 +586,7 @@ justify-content: space-between;
 
 .body_third_section{
 	flex-direction: column-reverse;
+	margin-bottom: 0;
 }
 .th_right_content img {
     width: 90%;
@@ -607,6 +700,7 @@ justify-content: space-between;
 
 .icons_wrapper img {
 	width: 27px;
+	height: 27px;
 }
 
 .main_section {
@@ -616,7 +710,12 @@ justify-content: space-between;
     background-repeat: no-repeat;
     padding-bottom: 33%;
 }
-
+.body_content,.body_third_section{
+    padding: 0px 15px;
+}
+footer {
+	padding: 0 15px 15px;
+}
 }
 
 
