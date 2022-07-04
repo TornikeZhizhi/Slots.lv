@@ -623,9 +623,17 @@ text-decoration: underline;}
 	max-width: 100%;
 	margin: 30px 0;
 }
+
+.th_left_content .button {
+	display: flex;
+	justify-content: center;
+}
+
+
 .th_text p, .th_text h5 {
 	font-size: 23px;
 	margin-bottom: 10px;
+	text-align: center;
 }
 .body_box h3 {
     font-size: 27px;
@@ -669,7 +677,7 @@ text-decoration: underline;}
 }	
 
 .main_text {
-	width: 60%;
+	width: 57%;
 }
 
 .header_logo a img {
@@ -708,7 +716,7 @@ text-decoration: underline;}
     background-position: 310% 12%,bottom, center;
     background-size: 87%,125%, cover;
     background-repeat: no-repeat;
-    padding-bottom: 33%;
+    padding-bottom: 20%;
 }
 .body_content,.body_third_section{
     padding: 0px 15px;
