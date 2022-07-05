@@ -56,18 +56,15 @@
 .main_section {
 
 	width: 100%;
-	height: 100vh;
-	/*background-color: #FF5C5C;*/
+	min-height: 100vh;
+	
 	background-image: url("../imgs/main_bg.png");
 	background-position: bottom;
     background-size: cover;
 }
 
 .main_container {
-	/*display: flex;
-	align-items: flex-start;
-	max-width: 1300px;
-	margin: 0 auto;*/
+
 	    padding: 0 8%;
 }
 
@@ -262,7 +259,7 @@ justify-content: space-between;
 
 .body_third_section {
 	display: flex;
-	align-items: flex-start;
+	align-items: center;
 	margin: 90px 0 50px;
 	padding: 0 8%;
 }
@@ -528,9 +525,33 @@ text-decoration: underline;}
 }
 
 }
-
+@media (max-width: 1260px) and (min-width: 991px) {
+   .slider_section a {
+   	width: 150px !important;
+   }
+}
 
 @media screen and (max-width: 992px) {
+
+	footer .icons_wrapper {
+		justify-content: center;
+	}
+
+/*	.main_section {
+    background-image: url(../imgs/mobile_slot.svg), url(../imgs/mobile_bg2.svg),url(../imgs/mobille_bg1.svg);
+    background-position: 112% 29%,bottom, center;
+    background-size: 61%,125%, cover;
+    background-repeat: no-repeat;
+    padding-bottom: 20%;
+}*/
+
+	.main_section {
+    background-image: url(../imgs/mobile_slot.svg), url(../imgs/new_mobile_bg.png);
+   background-position: 96% 28%,bottom, center;
+    background-size: 51%,121%, cover;
+    background-repeat: no-repeat;
+    padding-bottom: 20%;
+}
 
 	footer {
 		flex-direction: column;
@@ -589,8 +610,8 @@ text-decoration: underline;}
 	margin-bottom: 0;
 }
 .th_right_content img {
-    width: 90%;
-    height: 90%;
+    width: 60%;
+    height: 60%;
 }
 .th_right_content{
 	width: 100%;
@@ -670,6 +691,7 @@ text-decoration: underline;}
 
 .main_section{
 	height: auto;
+	min-height: auto;
 	
 }
 .main_container {
@@ -711,13 +733,7 @@ text-decoration: underline;}
 	height: 27px;
 }
 
-.main_section {
-	  background-image: url("../imgs/mobile_slot.svg"), url(../imgs/mobile_bg2.svg),url(../imgs/mobille_bg1.svg);
-    background-position: 310% 12%,bottom, center;
-    background-size: 87%,125%, cover;
-    background-repeat: no-repeat;
-    padding-bottom: 20%;
-}
+
 .body_content,.body_third_section{
     padding: 0px 15px;
 }
@@ -726,6 +742,18 @@ footer {
 }
 }
 
+@media screen and (max-width: 470px) {
+
+
+
+.main_section {
+	  background-image: url("../imgs/mobile_slot.svg"), url(../imgs/new_mobile_bg.png);
+    background-position: 310% 12%,bottom, center;
+    background-size: 87%,125%, cover;
+    background-repeat: no-repeat;
+    padding-bottom: 20%;
+}
+}
 
 
 @media screen and (max-width: 370px) {

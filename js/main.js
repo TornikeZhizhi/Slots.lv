@@ -11,6 +11,18 @@ jQuery(document).ready(function($) {
         items: 5,
         loop:false,
         center:false,
+      },
+       780: {
+        items: 3,
+        loop:true,
+        center:false,
+      },
+
+      480: {
+        items: 2,
+        loop:true,
+        center:false
+        ,
       }
     }
   });
